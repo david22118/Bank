@@ -1,0 +1,59 @@
+.Operations{
+  
+}
+.oop{
+    align-items: center;
+    display:flex;
+flex-direction: column;
+
+opacity: 0.8;
+
+}
+
+
+.input-operations{
+    border: solid white;
+    padding: 1vw;
+    border-style: groove;
+    border-width: thin;
+    box-shadow: -5px 5px 12px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    color: #1e90ff;
+    border:  #1e90ff;
+
+
+}
+
+::placeholder{
+    color: #1e90ff;
+  
+
+}
+
+.Withdraw{
+    border: solid rgba(0, 0, 0, 0.2);
+    padding: 1vw;
+    border-style: groove;
+    border-width: thin;
+    box-shadow: -5px 5px 12px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: #1e90ff;
+    cursor: pointer;
+}
+
+.Deposit{
+    border: solid rgba(0, 0, 0, 0.2);
+    padding: 1vw;
+    border-style: groove;
+    border-width: thin;
+    box-shadow: -5px 5px 12px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: #1e90ff;
+    cursor: pointer;
+}
+
+input:focus {
+    background-color: lightblue;
+    outline: none;
+  }
+

@@ -1,0 +1,28 @@
+.Breakdown{
+   
+    background-color: #1e90ff;
+    padding: 2vw;
+    /* width: 40%; */
+
+    
+    /* left: 2%; */
+    border: solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border-style: groove;
+    border-width: thin;
+    box-shadow: -5px 5px 12px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    opacity: 0.8;
+    min-height: 30%;
+   
+    align-content: center;
+    justify-content: center;
+    margin: 5%;
+ 
+ }
+
+ .breakdownTable{
+    position: relative;
+    margin: auto;
+
+ }

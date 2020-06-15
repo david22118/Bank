@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.App {
+  text-align: center;
+  
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("./low-angle-photo-of-four-high-rise-curtain-wall-buildings-830891.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+*{
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: medium;
+}
+/* *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+} */
+/* .fa-plus{
+  height: 100px;
+  width: 100px;
+  font-size: larger;
+  position: relative;
+  margin: auto;
+  color: blue;
+} */
+a:link{
+  text-decoration: none
+}
+li{
+  text-decoration: none;
+ position: static;
+  
+}
+nav{
+  display: grid;
+  list-style: none;
+  border: solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border-style: groove;
+  border-width: thin;
+  box-shadow: -5px 5px 12px  rgba(0, 0, 0, 0.2); 
+  padding: 5px;
+  height: 25px;
+  overflow: hidden;
+  width: 100%;
+  align-items: right;
+  background-color:#1e90ff;
+  opacity: 0.8;
+  grid-template-columns: repeat(4, 0.5fr);
+}
+nav li {
+  /* display: inline-block;
+  padding: 0px 27px; */
+  
+  
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 30px 10%;
+  /* width: 80vw; */
+  
+}
+nav li a{
+  transition: all 0.3s ease 0s;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  
+}
+
+nav li a:hover{
+  color:blue;
+  content: 'boo';
+}
+.Home{
+ 
+}
+
+.Transcations{
+  
+  
+}
+
+.Operations{
+
+}
+
+.Breakdown{
+  
+}
